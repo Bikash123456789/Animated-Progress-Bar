@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Bebas+Neue&family=Comfortaa:wght@300&family=Indie+Flower&family=Kaushan+Script&family=Luckiest+Guy&family=Montserrat&family=Oswald:wght@200&family=Palette+Mosaic&family=Poppins&family=Press+Start+2P&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(65, 65, 65);
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.progress-bar{
+    background-color: #ffffff;
+    width: 600px;
+    height: 15px;
+    border-radius: 20px;
+    margin: 10px 0 20px 0;
+}
+
+.html{
+    background-color: #ff5f03;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    animation: html 1s linear forwards;
+}
+
+.css{
+    background-color: #03eaff;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    animation: css 1s linear forwards;
+}
+
+.js{
+    background-color: #f203ff;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    animation: js 1s linear forwards;
+}
+
+.react{
+    background-color: #eeff03;
+    width: 0%;
+    height: 100%;
+    border-radius: 20px;
+    animation: react 1s linear forwards;
+}
+
+.html span{
+    border: 2px solid #ff5f03;
+}
+
+.css span{
+    border: 2px solid #03eaff;
+}
+.js span{
+    border: 2px solid #f203ff;
+}
+.react span{
+    border: 2px solid #eeff03;
+}
+
+span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 15px;
+    font-size: 0.8rem;
+    float: right;
+    margin-top: -10px;
+}
+
+@keyframes html {
+    100%{
+        width:86%
+    }
+}
+
+@keyframes css {
+    100%{
+        width:74%
+    }
+}
+@keyframes js {
+    100%{
+        width:65%
+    }
+}
+@keyframes react {
+    100%{
+        width:54%
+    }
+}
